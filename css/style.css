@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: var(--font_1);
+    font-size: var(--body_font-size);
+    line-height: 1.5;
+    /* display: flex;
+    flex-direction: column;
+    height: 100% */
+}
+
+html {
+    /* height: 100%;
+    box-sizing: border-box; */
+    background-color: #fff;
+    font-size: var(--html_font_size);
+}
+h1, h2, h3, h4, h5, h6, p, a {
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: unset;
+}
+button a{
+    text-decoration: none;
+    color: unset; 
+}
+
+:root {
+    --html_font_size: 10px;
+    --body_font-size: 14px;
+    --font_1: 'Lato', sans-serif;
+    --left_col: 40%;
+    --row_padding_y: 2rem;
+    --row_padding_x: 3rem;
+    --pp_size: 150px;
+}
+
+/* -------------------------------------------------------------------------allignment */
+
+
+footer {
+    margin-top: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* ----------------------------------------------------------------------Header */
+
+
+header.index-header{
+    top: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: 99999;
+    background: transparent;
+    color: #fff;
+}
+
+/* ---------------------------------------------------------------------Index page */
+
+/* --------------------------------------section-1 */
+
+.section-1-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+ 
+}
+
+.nav-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+button.def-btn.learnMore-btn {
+    border-radius: 6px;
+    padding: 20px 20px;
+    font-weight: 700;
+}
+button.def-btn.learnMore-btn:hover {
+    background-color: var(--color_2);
+    color: #fff;
+}
+button.def-btn.Message-btn {
+    padding: 20px 20px;
+    font-weight: 700;
+    background-color: var(--color_4);
+    border-radius: 0px;
+}
+button.def-btn.Message-btn:hover {
+    background-color: var(--color_2);
+    color: #fff;
+}
+
+
+button.def-btn.contactUs-btn {
+    border-radius: 6px;
+    padding: 20px 30px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    font-weight: 700;
+}
+button.def-btn.contactUs-btn:hover {
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+/* -------------------------------------------------------section-4 */
+
+.s4-bg-wrap-b1{
+    
+}
+
+/* -----------------------------------------------------------section-7 */
+
+.big-text-wrap {
+    text-align: center;
+    font-size: 245px;
+    color: #fff;
+    font-weight: 800;
+    /* position: relative; */
+    /* top: 60%; */
+    z-index: 1;
+    line-height: 1;
+    margin-bottom: -125px;
+    transition: all 0.3s ease-in-out;
+}
+/* -------------------------------------------------------------section-8 */
+
+.s8-image-wrap-a1>.image-wrap>img{
+height: 72px;
+width: 72px;
+border-radius: 50%;
+}
+
+
+
+/* -----------------------------------------------------------------About page */
+
+/* ----------------------------------------------------Inner-page---  website-development */
+.inP1-s1-wrap>.icon-wrap {
+    color: white;
+    display: inline-flex;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
