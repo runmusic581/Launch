@@ -68,6 +68,70 @@ header.index-header{
     color: #fff;
 }
 
+.menu-bar li a:hover{
+    padding-bottom: 6px;
+    border-bottom: 2px solid #fff;
+    transition: all 0.3s ease-out;
+}
+
+#menu{
+    height: 30px;
+    width: 35px;
+    margin: 30px 0 20px 20px;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.bar{
+    height: 5px;
+    width: 100%;
+    background-color: #fff;
+    display: block;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+#bar1{
+    transform: translateY(-4px);
+}
+#bar3{
+    transform: translateY(4px);
+}
+
+
+.icon .bar{
+    background-color: #fff;
+}
+.icon #bar1{
+    transform: translateY(4px) rotate(-45deg);
+}
+.icon #bar3{
+    transform: translateY(-6px) rotate(45deg);
+}
+.icon #bar2{
+    opacity: 0;
+}
+.mobile-nav{
+    padding: 0;
+    margin:0 20px;
+    transition: 1s ease;
+    display: none;
+}
+.change{
+background-color: var(--color_4);
+height: 100vh;
+margin: 0;
+position: absolute;
+font-size: 30px;
+top: 0;
+left: 0;
+z-index: -100;
+width:100vw;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
 /* ---------------------------------------------------------------------Index page */
 
 /* --------------------------------------section-1 */
@@ -123,10 +187,74 @@ button.def-btn.contactUs-btn:hover {
     border: 2px solid #fff;
 }
 
-/* -------------------------------------------------------section-4 */
+/* -------------------------------------------------------section-5*/
 
-.s4-bg-wrap-b1{
-    
+.circle-wrap-1{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+@media (min-width: 576px) and (max-width:767px) {
+    .circle-wrap-1{
+        height: 150px;
+        width: 150px;
+    }
+}
+.circle-wrap-2{
+    height: 320px;
+    width: 320px;
+    border-radius: 50%;
+    background-color:var(--color_4);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+@media (min-width: 576px) and (max-width:767px) {
+    .circle-wrap-2{
+        height: 250px;
+        width: 250px;
+    }
+}
+.circle-wrap-3{
+    height: 440px;
+    width: 440px;
+    border-radius: 50%;
+    background-color:var(--color_3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+@media (min-width: 576px) and (max-width:767px) {
+    .circle-wrap-3{
+        height: 300px;
+        width: 300px;
+    }
+}
+.circle-wrap-4{
+    height: 320px;
+    width: 320px;
+    border-radius: 50%;
+    background-color:var(--color_1);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+@media (min-width: 576px) and (max-width:767px) {
+    .circle-wrap-4{
+        height: 220px;
+        width: 220px;
+    }
 }
 
 /* -----------------------------------------------------------section-7 */
@@ -143,6 +271,15 @@ button.def-btn.contactUs-btn:hover {
     margin-bottom: -125px;
     transition: all 0.3s ease-in-out;
 }
+@media (min-width: 576px) and (max-width:767px){
+    .big-text-wrap{
+        font-size: 95px;
+        margin-bottom: -105px;
+
+    }
+}
+
+
 /* -------------------------------------------------------------section-8 */
 
 .s8-image-wrap-a1>.image-wrap>img{
