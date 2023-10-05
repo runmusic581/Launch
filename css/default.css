@@ -2,10 +2,10 @@
 /* font-family: 'Montserrat', sans-serif; */
 
 :root {
-	--color_1: #6231ed;
-	--color_2: #370dad;
+	--color_1: #1264a8;
+	--color_2: #2f80c3;
 	--color_3: #f3effb;
-	--color_4: #1B122F;
+	--color_4: #082541;
 	--color_5: #F8F5FF;
 
 
@@ -189,12 +189,13 @@ input.submit-btn:hover {
 	font-size: 2.2rem;
 	min-height: 5rem;
 	border: none;
-	border: 0.2rem solid var(--color_1);
+	border: 0.2rem solid var(--color_2);
 }
 
 .submit-wrap>.contact-btn:hover {
 	background-color: transparent;
 	color: var(--color_1);
+	border: 0.2rem solid var(--color_2);
 }
 
 
