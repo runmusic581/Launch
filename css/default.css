@@ -194,38 +194,10 @@ input.submit-btn:hover {
 
 .submit-wrap>.contact-btn:hover {
 	background-color: transparent;
-	color: var(--color_1);
 	border: 0.2rem solid var(--color_2);
 }
 
 
-.readmore-btn,
-a.readmore-btn,
-button.readmore-btn {
-	display: inline-flex;
-	font-weight: 700;
-	color: var(--color_1);
-	padding: 0;
-	margin: 0;
-	border: none;
-	outline: none;
-	background-color: transparent;
-
-}
-
-.map-btn,
-a.map-btn,
-button.map-btn {
-	display: inline-flex;
-	font-weight: 700;
-	color: var(--color_14);
-	padding: 0;
-	margin: 0;
-	border: none;
-	outline: none;
-	background-color: transparent;
-
-}
 
 /* --------------------------------------------------------- List */
 ul.def-list {
