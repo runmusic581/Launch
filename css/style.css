@@ -19,6 +19,10 @@ html {
     background-color: #fff;
     font-size: var(--html_font_size);
 }
+
+
+
+
 h1, h2, h3, h4, h5, h6, p, a {
     padding: 0;
     margin: 0;
@@ -36,13 +40,13 @@ button a{
 }
 
 :root {
-    --html_font_size: 10px;
-    --body_font-size: 14px;
+    --html_font_size: 1rem;
+    --body_font-size: 1.4rem;
     --font_1: 'Lato', sans-serif;
     --left_col: 40%;
-    --row_padding_y: 2rem;
-    --row_padding_x: 3rem;
-    --pp_size: 150px;
+    --row_padding_y: 0.2rem;
+    --row_padding_x: 0.3rem;
+    --pp_size: 15rem;
 }
 
 /* -------------------------------------------------------------------------allignment */
@@ -51,7 +55,7 @@ button a{
 footer {
     margin-top: auto;
     text-align: center;
-    padding: 10px;
+    padding: 1rem;
 }
 
 
@@ -69,32 +73,32 @@ header.index-header{
 }
 
 .menu-bar li a:hover{
-    padding-bottom: 6px;
-    border-bottom: 2px solid #fff;
+    padding-bottom: 0.6rem;
+    border-bottom: 0.2rem solid #fff;
     transition: all 0.3s ease-out;
 }
 
 #menu{
-    height: 30px;
-    width: 35px;
-    margin: 30px 0 20px 20px;
+    height: 3rem;
+    width: 3.5rem;
+    margin: 3rem 0 2rem 2rem;
     cursor: pointer;
     z-index: 100;
 }
 
 .bar{
-    height: 5px;
+    height: .5rem;
     width: 100%;
     background-color: #fff;
     display: block;
-    border-radius: 5px;
+    border-radius: .5rem;
     transition: 0.3s ease;
 }
 #bar1{
-    transform: translateY(-4px);
+    transform: translateY(-0.4rem);
 }
 #bar3{
-    transform: translateY(4px);
+    transform: translateY(0.4rem);
 }
 
 
@@ -102,26 +106,29 @@ header.index-header{
     background-color: #fff;
 }
 .icon #bar1{
-    transform: translateY(4px) rotate(-45deg);
+    transform: translateY(0.4rem) rotate(-45deg);
 }
 .icon #bar3{
-    transform: translateY(-6px) rotate(45deg);
+    transform: translateY(-0.6rem) rotate(45deg);
 }
 .icon #bar2{
     opacity: 0;
 }
 .mobile-nav{
     padding: 0;
-    margin:0 20px;
+    margin:0 2rem;
     transition: 1s ease;
     display: none;
+}
+.mobile-nav > li{
+padding: 3rem 0;
 }
 .change{
 background-color: var(--color_4);
 height: 100vh;
 margin: 0;
 position: absolute;
-font-size: 30px;
+font-size: 3rem;
 top: 0;
 left: 0;
 z-index: -100;
@@ -155,19 +162,20 @@ justify-content: center;
     z-index: -1;
 }
 button.def-btn.learnMore-btn {
-    border-radius: 6px;
-    padding: 20px 20px;
+    border-radius: 0.6rem;
+    padding: 2rem 2rem;
     font-weight: 700;
+    font-size: 1.8rem;
 }
 button.def-btn.learnMore-btn:hover {
     background-color: var(--color_2);
     color: #fff;
 }
 button.def-btn.Message-btn {
-    padding: 20px 20px;
+    padding: 2rem 2rem;
     font-weight: 700;
     background-color: var(--color_4);
-    border-radius: 0px;
+    border-radius: 0rem;
 }
 button.def-btn.Message-btn:hover {
     background-color: var(--color_2);
@@ -176,22 +184,23 @@ button.def-btn.Message-btn:hover {
 
 
 button.def-btn.contactUs-btn {
-    border-radius: 6px;
-    padding: 20px 30px;
+    border-radius: 6rem;
+    padding: 2rem 3rem;
     background-color: transparent;
-    border: 2px solid #fff;
+    border: .2rem solid #fff;
+    font-size: 1.8rem;
     font-weight: 700;
 }
 button.def-btn.contactUs-btn:hover {
     color: #fff;
-    border: 2px solid #fff;
+    border: .2rem solid #fff;
 }
 
 /* -------------------------------------------------------section-5*/
 
 .circle-wrap-1{
-    height: 200px;
-    width: 200px;
+    height: 13vw;
+    width: 13vw;
     border-radius: 50%;
     background-color: #fff;
     display: flex;
@@ -199,15 +208,16 @@ button.def-btn.contactUs-btn:hover {
     align-items: center;
     justify-content: center;
 }
-@media (min-width: 576px) and (max-width:767px) {
+@media (max-width:870px) {
     .circle-wrap-1{
-        height: 150px;
-        width: 150px;
+        height:90vw;
+        width: 90vw;
+        margin: 0 auto;
     }
 }
 .circle-wrap-2{
-    height: 320px;
-    width: 320px;
+    height: 20vw;
+    width: 20vw;
     border-radius: 50%;
     background-color:var(--color_4);
     color: #fff;
@@ -216,15 +226,16 @@ button.def-btn.contactUs-btn:hover {
     align-items: center;
     justify-content: center;
 }
-@media (min-width: 576px) and (max-width:767px) {
+@media (max-width:870px) {
     .circle-wrap-2{
-        height: 250px;
-        width: 250px;
+        height:90vw;
+        width: 90vw;
+        margin: 0 auto;
     }
 }
 .circle-wrap-3{
-    height: 440px;
-    width: 440px;
+    height: 26vw;
+    width: 26vw;
     border-radius: 50%;
     background-color:var(--color_3);
     display: flex;
@@ -232,15 +243,16 @@ button.def-btn.contactUs-btn:hover {
     align-items: center;
     justify-content: center;
 }
-@media (min-width: 576px) and (max-width:767px) {
+@media (max-width:870px) {
     .circle-wrap-3{
-        height: 300px;
-        width: 300px;
+        height:90vw;
+        width: 90vw;
+        margin: 0 auto;
     }
 }
 .circle-wrap-4{
-    height: 320px;
-    width: 320px;
+    height:20vw;
+    width: 20vw;
     border-radius: 50%;
     background-color:var(--color_1);
     color: #fff;
@@ -250,10 +262,11 @@ button.def-btn.contactUs-btn:hover {
     justify-content: center;
     text-align: center;
 }
-@media (min-width: 576px) and (max-width:767px) {
+@media (max-width:870px) {
     .circle-wrap-4{
-        height: 220px;
-        width: 220px;
+        height:90vw;
+        width: 90vw;
+        margin: 0 auto;
     }
 }
 
@@ -261,30 +274,21 @@ button.def-btn.contactUs-btn:hover {
 
 .big-text-wrap {
     text-align: center;
-    font-size: 245px;
+    font-size: 14rem;
     color: #fff;
     font-weight: 800;
     /* position: relative; */
     /* top: 60%; */
     z-index: 1;
     line-height: 1;
-    margin-bottom: -125px;
+    margin-bottom: -11.2rem;
     transition: all 0.3s ease-in-out;
 }
-@media (min-width: 576px) and (max-width:767px){
-    .big-text-wrap{
-        font-size: 95px;
-        margin-bottom: -105px;
-
-    }
-}
-
-
 /* -------------------------------------------------------------section-8 */
 
 .s8-image-wrap-a1>.image-wrap>img{
-height: 72px;
-width: 72px;
+height: 7.2rem;
+width: 7.2rem;
 border-radius: 50%;
 }
 
@@ -296,9 +300,9 @@ border-radius: 50%;
 .inP1-s1-wrap>.icon-wrap {
     color: white;
     display: inline-flex;
-    padding: 10px 20px;
+    padding: 1rem 2rem;
     align-items: center;
     justify-content: center;
-    border-radius: 5px;
+    border-radius: 0.5rem;
     cursor: pointer;
 }
