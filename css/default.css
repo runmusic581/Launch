@@ -17,7 +17,6 @@
 }
 
 
-
 /* Tags */
 * {
 	box-sizing: border-box;
@@ -36,12 +35,12 @@
 }
 @media (max-width:576px) {
 	html{
-		font-size:40%;
+		font-size:36%;
 	}
 }
 @media (max-width:460px) {
 	html{
-		font-size:30%;
+		font-size:28%;
 	}
 }
 
