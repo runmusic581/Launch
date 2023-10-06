@@ -39,6 +39,11 @@
 		font-size:40%;
 	}
 }
+@media (max-width:460px) {
+	html{
+		font-size:30%;
+	}
+}
 
 body {
 	font-family: 'Montserrat', sans-serif;
