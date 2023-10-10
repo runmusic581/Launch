@@ -288,6 +288,29 @@ border-radius: 50%;
 }
 
 
+.s8wrap{
+    padding: 4rem;
+}
+.say-wrap{
+    height: 20rem;
+}
+@media (max-width:880px) {
+    .say-wrap{
+        height:12rem;
+    } 
+}
+@media (max-width:580px) {
+    .say-wrap{
+        height:26rem;
+    } 
+}
+@media (max-width:460px) {
+    .say-wrap{
+        height:36rem;
+    } 
+}
+
+
 
 /* -----------------------------------------------------------------About page */
 
