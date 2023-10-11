@@ -168,8 +168,8 @@ button.def-btn.btn-one {
     padding: 2rem 3rem;
     background-color: transparent;
     border: .2rem solid #fff;
-    font-size: 1.8rem;
     font-weight: 700;
+    width: 100%;
 }
 button.def-btn.btn-one:hover {
     color: #fff;
