@@ -181,8 +181,8 @@ button.def-btn.btn-two {
     padding: 2rem 3rem;
     background-color: var(--color_1);
     border-color: var(--color_1);
-    font-size: 1.8rem;
     font-weight: 700;
+    width: 100%;
 }
 button.def-btn.btn-two:hover {
     color: #fff;
@@ -323,4 +323,31 @@ border-radius: 50%;
     justify-content: center;
     border-radius: 0.5rem;
     cursor: pointer;
+}
+
+
+
+/* ----------------------------------------------------Inner- support */
+
+.feature-list>li{
+    list-style: disc;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2;
+    margin-bottom: 2rem;
+}
+@media (max-width:870px) {
+    .feature-list>li{
+      font-size: 2rem;
+    }
+}
+@media (max-width:600px) {
+    .feature-list>li{
+      font-size: 2rem;
+    }
+}
+@media (max-width:420px) {
+    .feature-list>li{
+      font-size:3rem;
+    }
 }
