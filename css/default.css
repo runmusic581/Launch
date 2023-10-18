@@ -2,11 +2,13 @@
 /* font-family: 'Montserrat', sans-serif; */
 
 :root {
-	--color_1: #1264a8;
+	--color_1: #0a4c82;
 	--color_2: #2f80c3;
 	--color_3: #f3effb;
 	--color_4: #082541;
 	--color_5: #F8F5FF;
+	--color_6: #d2dbde;
+	--color_7: #8b9296;
 
 
 
@@ -16,7 +18,12 @@
 
 }
 
-
+.color-6{
+	color: var(--color_6);
+}
+.color-7{
+	color: var(--color_7);
+}
 /* Tags */
 * {
 	box-sizing: border-box;
@@ -335,7 +342,7 @@ ul.def-list.list-col-2>li {
 }
 
 .section {
-	padding: 9rem 0;
+	padding:12rem 0;
 }
 
 .section-title {
